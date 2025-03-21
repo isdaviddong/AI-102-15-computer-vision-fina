@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = image_analysis
-build_property.ProjectDir = D:\image-analysis\
+build_property.ProjectDir = D:\AI-102-15-computer-vision-fina\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

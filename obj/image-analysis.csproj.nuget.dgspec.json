@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\image-analysis\\image-analysis.csproj": {}
+    "D:\\AI-102-15-computer-vision-fina\\image-analysis.csproj": {}
   },
   "projects": {
-    "D:\\image-analysis\\image-analysis.csproj": {
+    "D:\\AI-102-15-computer-vision-fina\\image-analysis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\image-analysis\\image-analysis.csproj",
+        "projectUniqueName": "D:\\AI-102-15-computer-vision-fina\\image-analysis.csproj",
         "projectName": "image-analysis",
-        "projectPath": "D:\\image-analysis\\image-analysis.csproj",
+        "projectPath": "D:\\AI-102-15-computer-vision-fina\\image-analysis.csproj",
         "packagesPath": "C:\\Users\\vmadmin\\.nuget\\packages\\",
-        "outputPath": "D:\\image-analysis\\obj\\",
+        "outputPath": "D:\\AI-102-15-computer-vision-fina\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net8"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net8.0": {
+            "targetAlias": "net8",
             "projectReferences": {}
           }
         },
@@ -39,8 +39,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net8.0": {
+          "targetAlias": "net8",
           "dependencies": {
             "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
               "target": "Package",
@@ -52,7 +52,7 @@
             },
             "System.Drawing.Common": {
               "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
@@ -61,7 +61,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
